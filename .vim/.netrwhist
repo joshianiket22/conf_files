@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/aniket/workspace/opbuilder'
+let g:netrw_dirhist_2='/Users/aniket/workspace/opbuilder/app'
+let g:netrw_dirhist_3='/Users/aniket/workspace/opbuilder/app/controllers'
+let g:netrw_dirhist_4='/Users/aniket/workspace/opbuilder'
+let g:netrw_dirhist_5='/Users/aniket/.vim/bundle'
+let g:netrw_dirhist_6='/Users/aniket/workspace/opbuilder'
+let g:netrw_dirhist_7='/Users/aniket/.vim/bundle'
+let g:netrw_dirhist_8='/Users/aniket/workspace/opbuilder'
