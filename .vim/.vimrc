@@ -55,6 +55,8 @@ Plugin 'sunaku/vim-ruby-minitest'
 Plugin 'jnwhiteh/vim-golang'
 Plugin 'vim-scripts/SyntaxRange'
 Plugin 'tpope/vim-tbone'
+Plugin 'ap/vim-css-color'
+Plugin 'groenewege/vim-less'
 call vundle#end()
 
 " Colorscheme
