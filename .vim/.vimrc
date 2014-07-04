@@ -365,6 +365,12 @@ iab charcters  characters
 iab Seperate   Separate
 iab seperate   separate
 
+"insert and remove comments in visual and normal mode
+vmap ,ic :s/^/#/g<CR>:let @/ = ""<CR>
+map  ,ic :s/^/#/g<CR>:let @/ = ""<CR>
+vmap ,rc :s/^#//g<CR>:let @/ = ""<CR>
+map  ,rc :s/^#//g<CR>:let @/ = ""<CR>
+
 " Local config
 "if filereadable($HOME . "/.vimrc.local")
   "source ~/.vimrc.local
