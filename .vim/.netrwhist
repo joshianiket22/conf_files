@@ -1,8 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/Users/aniket/Decisiv/pricing/config'
-let g:netrw_dirhist_2='/Users/aniket/Decisiv/pricing'
-let g:netrw_dirhist_3='/Users/aniket/Decisiv/portal'
-let g:netrw_dirhist_4='/Users/aniket/workspace/opbuilder'
-let g:netrw_dirhist_5='/Users/aniket/Decisiv/pricing'
-let g:netrw_dirhist_6='/Users/aniket/Decisiv/portal'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/aniket/Decisiv/pricing'
+let g:netrw_dirhist_2='/Users/aniket/workspace/opbuilder'
+let g:netrw_dirhist_3='/Users/aniket/Decisiv/pricing'
+let g:netrw_dirhist_4='/Users/aniket/Decisiv/portal'

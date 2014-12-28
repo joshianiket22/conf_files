@@ -57,6 +57,7 @@ Plugin 'vim-scripts/SyntaxRange'
 Plugin 'tpope/vim-tbone'
 Plugin 'ap/vim-css-color'
 Plugin 'groenewege/vim-less'
+Plugin 'matze/vim-move'
 call vundle#end()
 
 " Colorscheme
