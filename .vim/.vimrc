@@ -58,6 +58,7 @@ Plugin 'tpope/vim-tbone'
 Plugin 'ap/vim-css-color'
 Plugin 'groenewege/vim-less'
 Plugin 'matze/vim-move'
+Plugin 'ashisha/image.vim'
 call vundle#end()
 
 " Colorscheme
