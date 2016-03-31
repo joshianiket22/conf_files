@@ -5,63 +5,83 @@
 "  Other
 "
 
-set nocompatible              " be iMproved, required
-filetype off                  " required
+"NeoBundle Scripts-----------------------------
+if &compatible
+ set nocompatible               " Be iMproved
+endif
+"
+"  " Required:
+set runtimepath^=/Users/aniket/.vim/bundle/neobundle.vim/
+"
+" Required:
+call neobundle#begin(expand('/Users/aniket/.vim/bundle'))
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-" let path = '~/some/path/here'
-" call vundle#rc(path)
+" Let NeoBundle manage NeoBundle
+" Required:
+NeoBundleFetch 'Shougo/neobundle.vim'
+"
+" Add or remove your Bundles here:
+NeoBundle 'Shougo/neosnippet.vim'
+NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'flazz/vim-colorschemes'
+NeoBundle 'ddollar/nerdcommenter'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'ervandew/supertab'
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'majutsushi/tagbar'
+NeoBundle 'Lokaltog/vim-easymotion'
+NeoBundle 'tpope/vim-rails'
+NeoBundle 'tomasr/molokai'
+NeoBundle 'pangloss/vim-javascript'
+NeoBundle 'tpope/vim-markdown'
+NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-git'
+NeoBundle 'skwp/vim-rspec'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'edsono/vim-matchit'
+NeoBundle 'tomtom/tlib_vim'
+NeoBundle 'MarcWeber/vim-addon-mw-utils'
+NeoBundle 'garbas/vim-snipmate'
+NeoBundle 'honza/vim-snippets'
+NeoBundle 'terryma/vim-multiple-cursors'
+NeoBundle 'airblade/vim-gitgutter'
+NeoBundle 'mileszs/ack.vim'
+NeoBundle 'junegunn/seoul256.vim'
+NeoBundle 'szw/vim-maximizer'
+NeoBundle 'justinmk/vim-sneak'
+NeoBundle 'godlygeek/tabular'
+NeoBundle 't9md/vim-choosewin'
+NeoBundle 'mmozuras/vim-whitespace'
+NeoBundle 'w0ng/vim-hybrid'
+NeoBundle 'sunaku/vim-ruby-minitest'
+NeoBundle 'jnwhiteh/vim-golang'
+NeoBundle 'vim-scripts/SyntaxRange'
+NeoBundle 'tpope/vim-tbone'
+NeoBundle 'ap/vim-css-color'
+NeoBundle 'groenewege/vim-less'
+NeoBundle 'matze/vim-move'
+NeoBundle 'craigemery/vim-autotag'
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/vundle'
+" You can specify revision/branch/tag.
+NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }
 
-set rtp+=~/.vim/bundle/Vundle.vim
-Plugin 'tpope/vim-fugitive'
-Plugin 'kien/ctrlp.vim'
-Plugin 'ddollar/nerdcommenter'
-Plugin 'scrooloose/nerdtree'
-Plugin 'ervandew/supertab'
-Plugin 'scrooloose/syntastic'
-Plugin 'majutsushi/tagbar'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'tpope/vim-rails'
-Plugin 'tomasr/molokai'
-Plugin 'pangloss/vim-javascript'
-Plugin 'tpope/vim-markdown'
-Plugin 'tpope/vim-endwise'
-Plugin 'tpope/vim-git'
-Plugin 'skwp/vim-rspec'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'tpope/vim-surround'
-Plugin 'edsono/vim-matchit'
-Plugin 'tomtom/tlib_vim'
-Plugin 'MarcWeber/vim-addon-mw-utils'
-Plugin 'garbas/vim-snipmate'
-Plugin 'honza/vim-snippets'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'mileszs/ack.vim'
-Plugin 'junegunn/seoul256.vim'
-Plugin 'szw/vim-maximizer'
-Plugin 'justinmk/vim-sneak'
-Plugin 'godlygeek/tabular'
-Plugin 't9md/vim-choosewin'
-Plugin 'mmozuras/vim-whitespace'
-Plugin 'w0ng/vim-hybrid'
-Plugin 'sunaku/vim-ruby-minitest'
-Plugin 'jnwhiteh/vim-golang'
-Plugin 'vim-scripts/SyntaxRange'
-Plugin 'tpope/vim-tbone'
-Plugin 'ap/vim-css-color'
-Plugin 'groenewege/vim-less'
-Plugin 'matze/vim-move'
-Plugin 'ashisha/image.vim'
-call vundle#end()
+" Required:
+call neobundle#end()
+
+" Required:
+filetype plugin indent on
+
+" If there are uninstalled bundles found on startup,
+" this will conveniently prompt you to install them.
+NeoBundleCheck
+"End NeoBundle Scripts-------------------------
+"
 
 " Colorscheme
+set background=dark
 colorscheme hybrid
 
 " Basic setup ---------------------------------------------
