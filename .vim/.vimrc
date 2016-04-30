@@ -64,6 +64,8 @@ NeoBundle 'ap/vim-css-color'
 NeoBundle 'groenewege/vim-less'
 NeoBundle 'matze/vim-move'
 NeoBundle 'craigemery/vim-autotag'
+NeoBundle 'ngmy/vim-rubocop'
+
 
 " You can specify revision/branch/tag.
 NeoBundle 'Shougo/vimshell', { 'rev' : '3787e5' }

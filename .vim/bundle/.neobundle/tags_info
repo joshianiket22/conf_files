@@ -34,6 +34,7 @@ vim-move
 vim-multiple-cursors
 vim-rails
 vim-rspec
+vim-rubocop
 vim-ruby
 vim-ruby-minitest
 vim-sneak
